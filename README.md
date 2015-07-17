@@ -4,7 +4,7 @@ Various bookmarklets for mobile and desktop browser that make the web a better p
 ### Installation
 
 #### Desktop
-Just drag link after “Install:” to your bookmarks bar.
+Just drag the Install link to your bookmarks bar.
 
 #### Mobile devices
 1. Hold and copy the Install link or copy code from the source.
