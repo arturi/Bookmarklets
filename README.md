@@ -1,7 +1,7 @@
 # Bookmarklets
 Various bookmarklets for mobile and desktop browser that make the web a better place. 
 
-Head to [Installation guide](http://arturi.github.io/bookmarklets/) for instrutions or use the source.
+Head to the [Installation guide](http://arturi.github.io/bookmarklets/) for instrutions or use the source.
 
 ## Darken 
 ![lumos maxima](https://secure.static.tumblr.com/096d1a5338b80cb5312ad958460afb81/vi1fn9t/xQena4wl5/tumblr_static_lumosmaxima5.jpg)
