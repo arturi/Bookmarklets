@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>JavaScript Bookmarklets that make the web a better place</title>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<style>
 		* {
 			box-sizing: border-box;
@@ -15,7 +15,7 @@
 		body {
 			margin: 0;
 			padding: 0;
-			font-family: 'Raleway', sans-serif;
+			font-family: 'PT Sans', sans-serif;
 			font-size: 16px;
 		}
 
@@ -63,13 +63,14 @@
 </head>
 <body>
 	<article class="narrow">
+		<h1>JavaScript Bookmarklets that make the web a better place</h1>
+
 		<h3 id="installation">Installation</h3>
 
 		<h4 id="desktop">Desktop</h4>
 		<p>Just drag the install link to your bookmarks bar.</p>
 
 		<h4 id="mobile-devices">Mobile devices</h4>
-
 		<ol>
 			<li>Hold and copy the Install link or copy code from the source.</li>
 			<li>Create a bookmark on this page and save it.</li>
@@ -81,11 +82,11 @@
 		<h2 id="darken">Darken</h2>
 		<p><img src="http://img2.wikia.nocookie.net/__cb20090531122933/harrypotter/images/f/f4/Lumos_Maxima.gif" alt="lumos maxima"></p>
 		<p>Good for night browsing and reading. Unlike other solutions, Darken doesn’t invert colors or otherwise alter page content. Everything stays the same, only less bright.</p>
-		<p><em>Install link</em>: <a href="javascript:(function(){if(window.isDimmed===true){document.getElementsByTagName('html')[0].style.cssText='filter:none;-webkit-filter:none;-moz-filter:none;';window.isDimmed=false;}else{document.getElementsByTagName('html')[0].style.cssText='filter:brightness(0.3);-webkit-filter:brightness(0.3);-moz-filter:brightness(0.3);-webkit-transform:translateZ(0);';window.isDimmed=true;}})();">Darken</a></p>
+		<p><strong>Install link</strong>: <a href="javascript:(function(){if(window.isDimmed===true){document.getElementsByTagName('html')[0].style.cssText='filter:none;-webkit-filter:none;-moz-filter:none;';window.isDimmed=false;}else{document.getElementsByTagName('html')[0].style.cssText='filter:brightness(0.3);-webkit-filter:brightness(0.3);-moz-filter:brightness(0.3);-webkit-transform:translateZ(0);';window.isDimmed=true;}})();">Darken</a></p>
 
 		<h2 id="fix-zoom">Fix Zoom</h2>
 		<p>Removes zooming restrictions that some websites have on mobile browsers.</p>
-		<p><em>Install link</em>: <a href="javascript:(function()%7Bvar%20e=document.getElementsByTagName(%22meta%22),t=e.length,n;while(t--)%7Bn=e%5Bt%5D;if%20(n.name.toLowerCase()==%22viewport%22)%7Bn.content=%22user-scalable=1,%20initial-scale=1,%20maximum-scale=10;%22;%7D%7D%7D)()">Fix Zoom</a></p>
+		<p><strong>Install link</strong>: <a href="javascript:(function()%7Bvar%20e=document.getElementsByTagName(%22meta%22),t=e.length,n;while(t--)%7Bn=e%5Bt%5D;if%20(n.name.toLowerCase()==%22viewport%22)%7Bn.content=%22user-scalable=1,%20initial-scale=1,%20maximum-scale=10;%22;%7D%7D%7D)()">Fix Zoom</a></p>
 	</article>
 </body>
 </html>
