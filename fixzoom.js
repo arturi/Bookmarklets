@@ -1,0 +1,1 @@
+javascript:(function()%7Bvar%20e=document.getElementsByTagName(%22meta%22),t=e.length,n;while(t--)%7Bn=e%5Bt%5D;if%20(n.name.toLowerCase()==%22viewport%22)%7Bn.content=%22user-scalable=1,%20initial-scale=1,%20maximum-scale=10;%22;%7D%7D%7D)()
