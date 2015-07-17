@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>JavaScript Bookmarklets that make the web a better place</title>
+	<title>JavaScript bookmarklets that make the web a better place</title>
 	<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<style>
 		* {
@@ -34,13 +34,17 @@
 		}
 
 		h2 {
-			margin-top: 3em;
+			margin-top: 2em;
 			margin-bottom: 1em;
 			font-weight: normal;
 		}
 
 		p {
 			line-height: 1.5;
+		}
+
+		a {
+			color: #000;
 		}
 
 		.narrow {
@@ -63,7 +67,7 @@
 </head>
 <body>
 	<article class="narrow">
-		<h1>JavaScript Bookmarklets that make the web a better place</h1>
+		<h1>JavaScript bookmarklets that make the web a better place</h1>
 
 		<h3 id="installation">Installation</h3>
 
@@ -80,7 +84,7 @@
 		<small>Pro tip: bookmarklets should automatically sync to all of your devices where you have syncing enabled.</small>
 
 		<h2 id="darken">Darken</h2>
-		<p><img src="http://img2.wikia.nocookie.net/__cb20090531122933/harrypotter/images/f/f4/Lumos_Maxima.gif" alt="lumos maxima"></p>
+		<p><img src="http://img4.wikia.nocookie.net/__cb20111211124052/harrypotter/ru/images/c/c0/Lumos_Maxima.jpg" alt="lumos maxima"></p>
 		<p>Good for night browsing and reading. Unlike other solutions, Darken doesn’t invert colors or otherwise alter page content. Everything stays the same, only less bright.</p>
 		<p><strong>Install link</strong>: <a href="javascript:(function(){if(window.isDimmed===true){document.getElementsByTagName('html')[0].style.cssText='filter:none;-webkit-filter:none;-moz-filter:none;';window.isDimmed=false;}else{document.getElementsByTagName('html')[0].style.cssText='filter:brightness(0.3);-webkit-filter:brightness(0.3);-moz-filter:brightness(0.3);-webkit-transform:translateZ(0);';window.isDimmed=true;}})();">Darken</a></p>
 
